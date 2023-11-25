@@ -1,0 +1,20 @@
+
+
+
+#include	<windows.h>
+#include	"ChkExe.h"
+
+
+
+FirstMenu	MENU
+{
+	POPUP	"File"
+	{
+		MENUITEM	"Open", IDM_OPEN
+		MENUITEM	SEPARATOR
+		MENUITEM	"Exit", IDM_EXIT
+	}
+}
+
+
+
